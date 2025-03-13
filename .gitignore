@@ -1,0 +1,45 @@
+# AppleScript specific
+*.scpt
+*.scptd
+*.applescript~
+*.scpt~
+
+# AppleScript editor temp files
+*.temporary
+*.autosave
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight indexing
+.Spotlight-V100
+.Trashes
+
+# Icon files
+Icon?
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Logs and build outputs
+*.log
+
+# Backup files
+*~
+
+# Build artifacts (if packaging scripts)
+build/
+dist/
+pkg/
+
+# Xcode specific
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+
