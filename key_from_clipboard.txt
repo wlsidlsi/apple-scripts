@@ -1,0 +1,13 @@
+-- key in characters from clipboard
+set theText to (the clipboard as text)
+
+set AppleScript's text item delimiters to ", "
+set itemsList to text items of theText
+
+tell application "System Events"
+	repeat with currentItem in itemsList
+		keystroke currentItem
+		key code 36 -- Enter key
+		delay 0.2 -- adjust if necessary
+	end repeat
+end tell
